@@ -2,10 +2,6 @@ import pandas as pd
 df = pd.read_csv('parkinsons.csv')
 df.head()
 
-import pandas as pd
-df = pd.read_csv('parkinsons.csv')
-df.head()
-
 selected_features = ['MDVP:Fhi(Hz)', 'D2']
 target_feature = 'status'
 
